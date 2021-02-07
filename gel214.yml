@@ -1,0 +1,12 @@
+name: gel214
+channels:
+  - https://conda.anaconda.org/conda-forge
+  - defaults
+dependencies:
+  - pip=21.0
+  - python=3.8
+  - ipykernel
+  - pip:
+    - landlab==2.2.0
+prefix: /home/jovyan/.conda/envs/gel214
+
